@@ -1,0 +1,76 @@
+.button {
+    content: "";
+    background: linear-gradient(
+      60deg,
+      #f79533,
+      #f37055,
+      #ef4e7b,
+      #a166ab,
+      #5073b8,
+      #1098ad,
+      #07b39b,
+      #6fba82
+    );
+    -webkit-animation: animatedgradient 3s ease infinite alternate;
+    animation: animatedgradient 3s ease infinite alternate;
+    background-size: 300% 300%;
+    border: 0;
+    width: 20vw;
+    height: 20vh;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  }
+
+  @keyframes animatedgradient {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+
+  .btn{
+    color: aliceblue;
+    font-size: 2rem;
+  }
+
+
+  @media screen and (max-width: 968px) {
+    .button{
+      width: 22vw;
+    }
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .button{
+      width: 70vw;
+      margin-left: 1rem;
+      margin-bottom: 5rem;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .button{
+      width: 30vw;
+      margin-left: 10rem;
+      margin-top: 10rem;
+    }
+  }
+
+  @media screen and (max-width:425px) {
+    .button{
+      width: 60vw;
+      margin-left: 2rem;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+  }
