@@ -15,7 +15,7 @@ export const Data = {
   },
   skills: {
     technicalLabel: "Things I know",
-    softLabel: "Skills",
+    softLabel: "Soft Skills",
     technicalSkills: [
       "Html",
       "CSS",

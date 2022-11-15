@@ -10,7 +10,7 @@ export const SocialMedia = () =>{
       <div className="icons">
       <a href="https://in.linkedin.com/in/ankit-dhanotiya" target='_blank'><BsLinkedin className = 'social-media-icon-linkedin'/></a>
       
-      <a href="www.instagram.com/ankit._d0">
+      <a href="www.instagram.com/ankit._d0" target='_blank'>
       <BsInstagram className="social-media-icon-insta"/></a>
       </div>
     </section>
