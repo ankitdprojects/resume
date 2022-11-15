@@ -45,14 +45,15 @@ export const Data = {
       },
     ],
     academic: [
+     
       {
-        certificate: "Higher Secondary Certificate",
+        certificate: "Secondary School Certificate",
         date: "2016",
         institution: "Subhash English School ",
         result:"Passed with 65%"
       },
       {
-        certificate: "Secondary School Certificate",
+        certificate: "Higher Secondary Certificate",
         date: "2018",
         institution: "Subhash English School ",
         result:"Passed with 55%"
